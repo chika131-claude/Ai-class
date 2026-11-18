@@ -1,0 +1,35 @@
+[
+  {
+    "id": "sample-q1",
+    "lessonId": "sample-01",
+    "sample": true,
+    "type": "journal",
+    "question": "現金 100,000 円を元入れして開業した。仕訳をしなさい。",
+    "accounts": ["現金", "普通預金", "資本金", "借入金", "売上"],
+    "answer": {
+      "debit": [{ "account": "現金", "amount": 100000 }],
+      "credit": [{ "account": "資本金", "amount": 100000 }]
+    },
+    "explanation": "現金（資産）が増えたので借方に、元入れした資本金（純資産）が増えたので貸方に記入します。"
+  },
+  {
+    "id": "sample-q2",
+    "lessonId": "sample-01",
+    "sample": true,
+    "type": "choice",
+    "question": "仕訳で、左側を何と呼びますか。",
+    "choices": ["貸方", "借方", "資産", "負債"],
+    "answer": 1,
+    "explanation": "左側が借方（かりかた）、右側が貸方（かしかた）です。"
+  },
+  {
+    "id": "sample-q3",
+    "lessonId": "sample-01",
+    "sample": true,
+    "type": "number",
+    "question": "ある仕訳の借方の合計が 250,000 円のとき、貸方の合計は何円ですか。",
+    "unit": "円",
+    "answer": 250000,
+    "explanation": "借方の合計と貸方の合計は必ず一致します。"
+  }
+]

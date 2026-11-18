@@ -1,27 +1,12 @@
 [
   {
-    "id": "js-basics",
-    "title": "はじめてのプログラミング：JavaScript 入門",
-    "summary": "ブラウザだけで始められる JavaScript の基本を、手を動かしながら学びます。",
-    "level": "初級",
-    "price": 0,
+    "id": "boki-intro",
+    "title": "簿記入門",
+    "summary": "簿記の基本を、教材と問題演習で身につけます。AI チューターが解説と質問対応をします。",
+    "level": "入門",
     "color": "#2f6fde",
     "lessons": [
-      { "id": "01-hello", "title": "プログラムを動かしてみよう", "minutes": 10 },
-      { "id": "02-variables", "title": "変数とデータの種類", "minutes": 15 },
-      { "id": "03-if", "title": "条件分岐 if 文", "minutes": 15 }
-    ]
-  },
-  {
-    "id": "ai-basics",
-    "title": "生成 AI 活用入門",
-    "summary": "生成 AI のしくみと、仕事や学習で上手に使うためのコツを学びます。",
-    "level": "初級",
-    "price": 3000,
-    "color": "#1a8a6a",
-    "lessons": [
-      { "id": "01-what-is-ai", "title": "生成 AI とは何か", "minutes": 10 },
-      { "id": "02-prompting", "title": "伝わるプロンプトの書き方", "minutes": 20 }
+      { "id": "sample-01", "title": "【サンプル】仕訳のきほん", "minutes": 10, "sample": true }
     ]
   }
 ]
